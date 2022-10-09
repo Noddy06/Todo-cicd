@@ -1,4 +1,5 @@
-# Django-ToDo-App
+#ToDo-App-using-Django
+
 This is a To-Do app build using django framework of python. Here user can create his todo list by adding items, crossed off the completed items, delete the completed items and can delete all the items.
 
 Technologies Used : 
@@ -11,12 +12,14 @@ Technologies Used :
 Additional Python Modules Required:
 
     1.Django
+    > pip install django
     
 Running the project:
 
 1. Migrate :
 
        > cd todo_app
+       > python manage.py makemigrations
        > python manage.py migrate
     
 2. Make Admin User :
