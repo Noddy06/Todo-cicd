@@ -6,4 +6,4 @@ COPY . .
 
 RUN python manage.py migrate
 
-CMD ["pytthon","manage.py","runserver"]
+CMD ["python","manage.py","runserver"]
